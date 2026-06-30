@@ -161,30 +161,8 @@ Instrument applications and infrastructure with OpenTelemetry, Prometheus, langu
 
 [**Instrumentation**](https://signoz.io/docs/instrumentation/) · [**Integrations**](https://signoz.io/docs/integrations/integrations-list/)
 
-### Comparisons to familiar tools
-
-SigNoz is often adopted by teams moving from a stack of single-purpose tools or commercial platforms with unpredictable pricing.
-
-**Prometheus**<br>
-Good if you just need metrics. SigNoz keeps metrics, logs, traces, dashboards, and alerts together so teams can debug with correlated context.
-
-**Jaeger**<br>
-Jaeger only does distributed tracing. SigNoz adds metrics, logs, trace analytics, dashboards, alerts, exceptions, and trace-to-log workflows.
-
-**Elastic**<br>
-SigNoz uses columnar database for efficient observability analytics and high-cardinality log workloads, with 50% lower resource requirement compared to Elastic during ingestion. Check the [detailed study](https://signoz.io/blog/logs-performance-benchmark/?utm_source=github-readme&utm_medium=logs-benchmark).
-
-**Loki**<br>
-In the linked benchmark, SigNoz indexed all keys in the test setup, while Loki hit max stream errors when more labels were added. Check the [detailed study](https://signoz.io/blog/logs-performance-benchmark/?utm_source=github-readme&utm_medium=logs-benchmark).
-
 ## Contributing
 
 We ❤️ contributions big or small. Please read [CONTRIBUTING.md](https://github.com/SigNoz/signoz/blob/main/CONTRIBUTING.md) to get started with making contributions to SigNoz.
 
 Not sure how to get started? **Just ping us on `#contributing` in our [slack community](https://signoz.io/slack).**
-
-As always, thanks to our amazing contributors!
-
-<a href="https://github.com/signoz/signoz/graphs/contributors">
-  <img alt="SigNoz contributors" src="https://contrib.rocks/image?repo=signoz/signoz" />
-</a>
